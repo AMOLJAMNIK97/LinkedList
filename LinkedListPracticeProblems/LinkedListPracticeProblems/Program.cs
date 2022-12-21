@@ -13,9 +13,14 @@ namespace DataStructure
         static void Main(string[] args)
         {
             Linkedlist list = new Linkedlist();
-            list.Addnote(56);
-            list.Addnote(30);
-            list.Addnote(30);
+            //list.Addnote(56);
+            //list.Addnote(30);
+            //list.Addnote(70);
+            
+
+            list.Addreverse(70);
+            list.Addreverse(30);
+            list.Addreverse(56);
             list.Display();
         }
     }
