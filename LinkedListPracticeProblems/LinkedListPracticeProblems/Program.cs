@@ -22,6 +22,8 @@ namespace DataStructure
             list.Addreverse(30);
             list.Addreverse(56);
             list.Display();
+            list.Delete();
+            list.Display();
         }
     }
 }

@@ -64,5 +64,27 @@ namespace LinkedListPracticeProblems
                 head.Next = temp;
             }
         }
+        public void Delete()
+        {
+            Node node = head;
+            if (head != null)
+            {
+                node = head;
+                head = head.Next;
+                node = null;
+            }
+        }
+        public void DeleteLast()
+        {
+            Node node = head;
+            Node lastnode = node.Next;
+            if (lastnode != null)
+                if (head.Next != null)
+                {
+                    node = node.Next;
+                    node.Next = null;
+                    lastnode = null;
+                }
+        }
     }
 }
